@@ -85,22 +85,9 @@ export default function Home() {
       }`}
     >
       <div className="flex items-center justify-center gap-3 mb-6">
-  <img 
-    src="/anoma_logo.png" 
-    alt="Anoma Logo" 
-    className="h-10 w-10 rounded-full shadow-md"
-  />
   <h1 className="text-4xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
     Solver Research Suite
   </h1>
-  <a 
-    href="https://twitter.com/0xharshh" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="text-sm text-blue-400 hover:underline"
-  >
-    @0xharshh
-  </a>
 </div>
 
 
