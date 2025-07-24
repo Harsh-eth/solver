@@ -440,6 +440,9 @@ export default function Home() {
           </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
+<footer className="text-center text-gray-500 text-sm mt-6">
+  built by <a href="https://twitter.com/0xharshh" className="text-blue-400 hover:underline">@0xharshh</a> | powered by <span className="text-green-400">Intent</span>
+</footer>
     </div>
   );
 }
