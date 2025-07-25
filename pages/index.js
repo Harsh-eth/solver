@@ -35,7 +35,7 @@ export default function Home() {
   const runSimulation = async () => {
     setData(null);
     for (let i = 0; i < runs; i++) {
-      const res = await fetch(`http://34.87.148.219:8000/optimize`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/optimize`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
